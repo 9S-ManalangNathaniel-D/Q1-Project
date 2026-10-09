@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <style>
+
+        body{
+        margin: auto;
+        background-color:aliceblue;
+       }
+
+       .hero{
+        background-color: rgb(26, 51, 141);
+        padding-top: 2%;
+       }
+
+       .hero-pfp{
+        width: 125px;
+        border-radius: 100%;
+        border: 40px;
+        border-color: blue;
+       }
+
+       .hero-txt{
+        line-height: 20%;
+        font-weight: bolder;
+        font-size:29px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+       }
+
+       .header-name{
+        padding-left: 2%;
+        text-align:center;
+        display: flex;
+        color: aliceblue;
+        font-size: larger;
+       }
+
+       .header{
+        background-color: rgb(27, 50, 126);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 60px;
+       }
+
+       .name-main{
+        color: rgb(190, 208, 249);
+       }
+
+       .Title-sub{
+        font-size: smaller;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: rgb(8, 43, 73);
+        margin-top:14px;
+        background-color: rgb(134, 195, 233);
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 50%;
+        border-radius: 20px;
+       }
+
+        img{
+            display: block;
+            width: 100px;
+            margin: auto;
+        }
+
+        .works{
+            display: flex;
+        }
+
+        .contact{
+            background-color: white;
+            border: 1px;
+            border-radius: 22px;
+            margin-left: 10%;
+            margin-right: 10%;
+            padding: 2%;
+            justify-content: left;
+            border-width: 4px;
+            border-style: outset;
+        }
+
+        footer{
+            background-color: rgb(27, 50, 126);
+            background-size: cover;
+            height: 60px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-name">
+            <p><b>Nathaniel Manalang</b></p>
+        </div>
+        <!-- <div class="header-right">
+            <div class="header-name">
+                <p><b>My Works</b></p>
+            </div>
+            <div class="header-name">
+                <p><b>About Me</b></p>
+            </div>
+        </div> -->
+        
+    </div>
+
+    <div class="hero">
+        <center>
+            <br>
+            <img src="https://storage.googleapis.com/oa_disk001/obgreenhills/65/student_files/301/profile_pictures/1790049390-3318.JPG" class="hero-pfp">
+            <div class="hero-txt">
+                <p>Hello, I am<p class="name-main">Nathaniel D. Manalang</p>
+            </div>
+            <p style="color: aliceblue;">OBMC Web Developer</p>
+            <br>
+            <br>
+        </center>
+    </div>
+    
+
+    <center>
+        <div class="Title-sub">
+            <h1>About Me</h1>
+        </div>
+        <p style="padding: 1.%; max-width: 600px;"
+        >Hello I am a student who is passionate about learning technologies, theorems, and interesting problems. I speciallize in STEM and get pretty mediocore works in Speaking subjects </p>
+        <br>
+    </center>
+    
+
+
+    <center>
+        <div class="Title-sub">
+            <h1>My Works</h1>
+        </div>
+    </center>
+    <br>
+    <div class="works">
+        <div class="work-img">
+            <img src="https://plain-apac-prod-public.komododecks.com/202610/01/fYohDgv28nYRvSn45aDN/image.png" 
+            style="width: 225px; border-radius: 20px; border-color: rgb(65, 49, 212); border-style:groove;border-width: 6px; margin-left: 150px; display: flexbox;">
+            <p style="margin-left:180px; font-size: larger ;"><i>My Top Artist | Playlist</i></p>
+        </div>
+        <div class="work-details">
+            <ul>
+                <li>✓ Red</li>
+                <li>✓ Albums</li>
+                <li>✓ Song</li>
+                <li>✓ Malcolm todd</li>
+                <li><a href="https://github.com/9S-ManalangNathaniel-D?tab=repositories">View my repositories</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="works">
+        <div class="work-img">
+            <img src="https://plain-apac-prod-public.komododecks.com/202610/02/bXLbHbuNdn021q8PTMzj/image.png" 
+            style="width: 225px; border-radius: 20px; border-color: rgb(65, 49, 212); border-style:groove;border-width: 6px; margin-left: 150px; display: flexbox;">
+            <p style="margin-left:230px; font-size: larger;"><i>Movie form</i></p>
+        </div>
+        <div class="work-details">
+            <ul>
+                <li>✓ Forms</li>
+                <li>✓ Inputs</li>
+                <li>✓ Textarea</li>
+                <li>✓ Movie Recommendation</li>
+                <li><a href="https://github.com/9S-ManalangNathaniel-D?tab=repositories">View my repositories</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <center>
+        <div class="Title-sub">
+            <h1>Contact Me</h1>
+        </div>
+    </center>
+
+    <br>
+
+    <form class="contact">
+
+        <div>
+            <label for="FULL-NAME">Name:</label>
+            <br>
+            <Input id="FULL-NAME" type="text" placeholder="Enter Name" style="width: 95%;"></Input>
+
+            <br>
+
+            <br>
+
+            <label for="email">Email Address:</label>
+            <br>
+            <Input id="email" type="email" placeholder="Enter Email" style="width: 95%;"></Input>
+        </div>  
+
+        <br>
+
+        <div>What are you interested in?
+            <input type="checkbox" name="Coding">
+            <label for="Coding">Coding</label>
+
+            <input type="checkbox" name="Design">
+            <label for="Design">Design</label>
+
+            <input type="checkbox" name="Electronics">
+            <label for="Electronics">Electronics</label>
+        </div>
+
+        <br>
+
+        <div>How did you find me?
+            <input type="checkbox" name="Facebook">
+            <label for="Facebook">Facebook</label>
+
+            <input type="checkbox" name="Instagram">
+            <label for="Instagram">Instagram</label>
+
+            <input type="checkbox" name="Tiktok">
+            <label for="Tiktok">Tiktok</label>
+        </div>
+        <br>
+        <label for="quantity">Rate my Portfolio:</label>
+        <select name="number-of-pizza" id="quantity">
+            <option value="1">1 star</option>
+            <option value="2">2 star</option>
+            <option value="3">3 star</option>
+            <option value="4">4 star</option>
+            <option value="5">5 star</option>
+        </select>
+        <br>
+        <br>
+
+        <div>Tell me why you want to join?
+            <br>
+            <textarea name="Why-join" id="Why-join" style="width: 95%; height: 70px;"></textarea>
+        </div>
+        <input type="submit" value="Submit!">
+        <input type="reset" value="Reset">
+    </form>
+
+    <br>
+
+    <center>
+        <footer>
+            <h3 style="color: aliceblue;">© 2026 | Nathaniel D. Manalang | 9-Sapphire</h3>
+        </footer>
+    </center>
+    
+    
+    
+</body>
+</html>
